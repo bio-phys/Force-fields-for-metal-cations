@@ -1,0 +1,63 @@
+[ moleculetype ]
+; Name            nrexcl
+CXY     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       CXY     1       CXY     CXY     1       -1      35.45
+
+[ moleculetype ]
+; Name            nrexcl
+LIO     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       LIO     1       LIO     LIO     1       1       6.94
+
+[ moleculetype ]
+; Name            nrexcl
+NIO     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       NIO     1       NIO     NIO     1       1       22.99
+
+[ moleculetype ]
+; Name            nrexcl
+KIO     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       KIO     1       KIO     KIO     1       1       39.0893
+
+[ moleculetype ]
+; Name            nrexcl
+CIO     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       CIO     1       CIO     CIO     1       1       132.905
+
+[ moleculetype ]
+; Name            nrexcl
+Mg2     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       Mg2     1       Mg2     Mg2     1       2       24.305
+
+[ moleculetype ]
+; Name            nrexcl
+Ca2     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       Ca2     1       Ca2     Ca2     1       2       40.078
+
+[ moleculetype ]
+; Name            nrexcl
+Sr2      3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       Sr2      1       Sr2      Sr2      1       2       87.62
+
+[ moleculetype ]
+; Name            nrexcl
+Ba2      3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       Ba2      1       Ba2      Ba2      1       2       137.33
+

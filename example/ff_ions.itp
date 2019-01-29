@@ -1,0 +1,59 @@
+;**************************************************************************************************
+;* Title of publication: Force fields for monovalent and divalent metal cations in TIP3P water	  *
+;* based on thermodynamic and kinetic properties	    		       	       	  	  *
+;* Authors: Shavkat Mamatkulov and Nadine Schwierz						  *		
+;* For implementation please cite: THE JOURNAL OF CHEMICAL PHYSICS 148, 074504 (2018)		  *
+;* https://doi.org/10.1063/1.5017694   	      	 	  	       	      			  *
+;* Note 1: This force field for metal cations was optimized with the TIP3P water model		  *
+;* Note 2: Lorentz-Berthelot combination rules required	   	    	  			  *
+;* Note 3: Unique names for metal cations							  *
+;* CXY - Cl											  *
+;* LIO - Li											  *
+;* NIO - Na											  *
+;* KIO - K											  *
+;* CIO - Cs											  *
+;* Mg2 - MG											  *
+;* Ca2 - CA											  *
+;* Sr2 - SR											  *
+;* Ba2 - BA											  *
+;**************************************************************************************************
+
+[atomtypes ]
+; name      at.num  mass     charge ptype  sigma      epsilon
+CXY     17      35.45   -1      A       0.440939        0.283829
+LIO     3       6.94    1       A       0.151813        0.604036
+NIO     11      22.99   1       A       0.260719        0.114553
+KIO     19      39.1    1       A       0.298839        0.604036
+CIO     55      132.9   1       A       0.354915        0.604036
+Mg2     12      24.305  2       A       0.161939        0.604036
+Ca2     20      40.078  2       A       0.226453        2.33883
+Sr2     38      87.62   2       A       0.282385        1.05659
+Ba2     56      137.33  2       A       0.354615        0.27719
+
+[ nonbond_params ]
+; i    j func        sigma epsilon
+CXY     CXY     1.000   0.440939        0.283829
+
+LIO     LIO     1.000   0.151813        0.604036
+LIO     CXY     1.000   0.296376        0.414057
+
+NIO     NIO     1.000   0.260719        0.114553
+NIO     CXY     1.000   0.350829        0.180315
+
+KIO     KIO     1.000   0.298839        0.604036
+KIO     CXY     1.000   0.369889        0.414057
+
+CIO     CIO     1.000   0.354915        0.604036
+CIO     CXY     1.000   0.397927        0.414057
+
+Mg2     Mg2     1.000   0.161939        0.604036
+Mg2     CXY     1.000   0.497374        0.414057
+
+Ca2     Ca2     1.000   0.226453        2.33883
+Ca2     CXY     1.000   0.333696        0.814757
+
+Sr2     Sr2     1.000   0.282385        1.05659
+Sr2     CXY     1.000   0.361662        0.547623
+
+Ba2     Ba2     1.000   0.354615        0.27719
+Ba2     CXY     1.000   0.397777        0.28049

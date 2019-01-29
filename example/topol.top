@@ -1,0 +1,26 @@
+; Include forcefield parameters for biomolecules (e.g. from amber14sb.ff)
+#include "./amber14sb.ff/forcefield.itp"
+
+; Include the optimized forcefield parameters for the metal cations and the chloride anion
+#include "./ff_ions.itp"
+#include "./ions.itp"
+
+; Include position restraints for each ion if needed
+#ifdef POSRESIONS
+#include "posre-ions.itp"
+#endif
+
+; Include water topology (e.g. from amber14sb.ff)
+#include "./amber14sb.ff/tip3p.itp"
+
+[ system ]
+; Name
+Ion in water
+
+[ molecules ]
+; Compound        #mols
+SOL          2123
+Mg2              19
+CXY              38
+
+
