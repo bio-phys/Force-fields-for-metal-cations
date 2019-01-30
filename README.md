@@ -40,5 +40,5 @@ S. Mamatkulov and N. Schwierz, J. Chem. Phys., 148, 074504 (2018)
 https://doi.org/10.1063/1.5017694
 
 
-Implementation has been tested by Nadine Schwierz and Sergio Cruz-Leon.
+Implementation has been tested by Nadine Schwierz and Sergio Cruz-León.
 USE AT YOUR OWN RISK!!
